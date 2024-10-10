@@ -27,7 +27,7 @@ export const Records = () => {
       </div>
       <div className="flex my-5 justify-center w-full">
         <table className="w-full md:w-[35rem] text-left text-gray-300 overflow-x-auto border-collapse">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <thead className="text-xs  uppercase  bg-gray-700 text-gray-400">
             <tr>
               <th scope="col" className="px-3 md:px-6 py-3">
                 Exercise
