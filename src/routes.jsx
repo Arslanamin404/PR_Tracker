@@ -1,4 +1,4 @@
-import { AddRecord } from "./components/addRecord";
+import { AddRecord } from "./components/AddRecord";
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./RootLayout";
 import { Records } from "./components/Records";
