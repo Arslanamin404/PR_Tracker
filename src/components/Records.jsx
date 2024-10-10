@@ -48,7 +48,7 @@ export const Records = () => {
               filteredRecords.map((record) => (
                 <tr
                   key={record.id}
-                  className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+                  className="border-b bg-gray-800 border-gray-700"
                 >
                   <th className="px-3 md:px-6 py-4 font-medium text-white uppercase text-sm md:text-base">
                     {record.exercise}
