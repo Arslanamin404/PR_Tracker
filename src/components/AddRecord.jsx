@@ -8,6 +8,8 @@ export const AddRecord = () => {
   const [exercise, setExercise] = useState("");
   const [weight, setWeight] = useState("");
   const [date, setDate] = useState("");
+  const today = new Date().toLocaleDateString("en-ca");
+
 
   const dispatch = useDispatch();
 
@@ -92,6 +94,7 @@ export const AddRecord = () => {
                 id="date"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
+                max={today}
               />
             </div>
             <button
