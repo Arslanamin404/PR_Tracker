@@ -73,6 +73,7 @@ export const AddRecord = () => {
               <input
                 type="number"
                 name="weight"
+                min={0}
                 id="weight"
                 value={weight}
                 onChange={(e) => setWeight(e.target.value)}
